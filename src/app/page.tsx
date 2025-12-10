@@ -1,23 +1,44 @@
-import Image from "next/image";
-import Link from "next/link";
+
+
+ import ContactInfo from "@/custom/cus-components/ContactInfo";
+// import QuoteBanner from "@/custom/cus-components/QuoteBanner";
+ import Catering from "@/custom/cus-components/Catering";
+import DiscountSection from "@/custom/cus-components/DiscountSection";
+import WelcomeBanner from "@/custom/cus-components/WelcomeBanner";
+import HeroSectionCustom from "@/custom/cus-components/HeroSectionCustom";
+ import BuffetCard from "@/custom/cus-components/BuffetCard";
+import LunchDiscountCard from "@/custom/cus-components/LunchDiscountCard";
+ import TableReservationCard from "@/custom/cus-components/TableReservationCard";
+
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-center gap-5 py-32 px-16 bg-white dark:bg-black sm:items-start">
-      <h1 className="text-5xl text-gray-800"> Masala Taste of India</h1>
-        <Link
-                href="https://eat.allo.restaurant/restaurant/masala-taste-of-india"
-                rel="noopener noreferrer"
-               
-                className={`bg-[#7a1f1f] hover:bg-[#611616] text-2xl text-white font-semibold px-6 py-1 rounded-xl transition text-center tracking-wide`}
-               
-            
-              >
-                🍴 ORDER MENU
-              </Link>
+     <main className=" text-gray-900 font-sans">
+      {/* <FlavorLine /> */}
+      {/* <HeroSection /> */}
+      <HeroSectionCustom />
+      
+      <DiscountSection />
+      <WelcomeBanner />
+    
+     <div className="max-w-7xl flex flex-col mx-auto  md:flex-row gap-4">
+      <div className="max-w-full mx-2 md:mx-0 md:w-[60%]">
+     <LunchDiscountCard />
+     </div>
+     <div className="max-w-full mx-2 md:mx-0 md:w-[40%]">
+     <TableReservationCard />
+     </div>
+     </div>
+         
+      <BuffetCard />
+     
 
-      </main>
-    </div>
+      {/* <QuoteBanner />*/}
+      <Catering />
+      <ContactInfo /> 
+      {/* <MenuPreview /> */}
+      {/* <Contact />
+      <Footer /> */}
+    </main>
   );
 }
