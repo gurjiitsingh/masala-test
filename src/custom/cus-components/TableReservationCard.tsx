@@ -27,8 +27,7 @@ export default function TableReservationCard() {
         <button
   className="bg-[#f4e1d2] text-[#7a1512] font-semibold px-6 py-3 rounded-xl hover:bg-[#611616] transition"
   onClick={() => {
-    window.location.href = "https://www.google.com/maps/reserve/v/dine/c/6JTgdCnqFvM?source=pa&opi=89978449&hl=en-IN&gei=tyL_aJLxDNCL4-EP4_HqqQQ&sourceurl=https://www.google.com/search?q%3Dmasala%2Btaste%2Bof%2Bindia%2Bbraunschweig%26rlz%3D1C1UEAD_enIN1131IN1131%26oq%3Dmasala%2Btaste%2Bof%2Bindia%2B%26gs_lcrp%3DEgZjaHJvbWUqBwgBEAAYgAQyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIGCAMQRRg9MgYIBBBFGDwyBggFEEUYPTIGCAYQRRhBMgYIBxBFGEHSAQg5NzUwajFqN6gCCLACAfEF8AkcktHNSkY%26sourceid%3Dchrome%26ie%3DUTF-8"
-  }}
+    window.location.href = "https://maps.app.goo.gl/zXre6oruRjeMsQKY6?g_st=iwb"  }}
 >
   Tischreservierung
 </button>

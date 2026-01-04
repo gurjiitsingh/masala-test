@@ -31,11 +31,11 @@ export default function LunchDiscountCard() {
       </div>
 
       {/* Product Information Button */}
-      <div className="mt-6 text-center md:text-left w-[30%]">
+      {/* <div className="mt-6 text-center md:text-left w-[30%]">
         <button className="bg-[#7a1512] text-white font-semibold px-8 py-3 rounded-full hover:bg-[#d24a0f] hover:text-white transition">
           Produktinformationen
         </button>
-      </div>
+      </div> */}
       </div>
     </section>
   );
